@@ -1,4 +1,16 @@
-Linux OS
-Apache web server
-MySQL or MariaDB server to store data
-PHP for a server-side dynamic web generation programming language
+Deploy a LAMP server
+
+--> Linux OS
+Update your system by running 
+sudo dnf update
+
+--> Apache web server
+Install Apache HTTPD in RHEL 8: sudo dnf install httpd
+
+--> MySQL or MariaDB server to store data
+Set up MariaDB (MySQL clone) on RHEL 8 sudo dnf install mariadb-server
+
+--> PHP for a server-side dynamic web generation programming language
+Finally install PHP 7.x to complete a LAMP set up on RHEL 8, run sudo dnf install @php
+
+Test your LAMP setup
