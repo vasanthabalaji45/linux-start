@@ -1,6 +1,6 @@
 Deploy a LAMP server
 
---> Linux OS
+--> Linux OS (RHEL6)
 Update your system by running 
 sudo dnf update
 
